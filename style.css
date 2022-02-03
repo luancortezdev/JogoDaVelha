@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    border: 1px solid gray;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.stage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .o {
+
+} */
+
+.o::after {
+    
+    content: "\1F4A9";
+    font-size: 50px;
+    line-height: 100px;
+}
+
+/* .x {
+
+} */
+
+.x::after {
+    content: "\1F47D";
+    font-size: 50px;
+    line-height: 100px;
+}
+
+/* button {
+    margin-top: 20px;
+    width: 80px;
+    background-color: rgb(240, 237, 237);
+    border-radius: 8px;
+    border: 1px solid gray;
+} */
